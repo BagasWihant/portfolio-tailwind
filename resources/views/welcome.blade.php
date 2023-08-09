@@ -19,6 +19,12 @@
     @livewire('component.navbar-component')
     @livewire('component.main-content')
     @livewire('component.about')
+    @livewire('component.skills')
+
+    @include('component.project')
+    @livewire('component.contact')
+
+    @stack('scripts')
     @livewireScripts
     @bukScripts(true)
 </body>

@@ -7,6 +7,8 @@ use Livewire\Component;
 class NavbarComponent extends Component
 {
     public $nav = false;
+    public $shadowStat = false;
+
 
     public function navOn(){
         $this->nav = true;
@@ -14,6 +16,10 @@ class NavbarComponent extends Component
 
     public function navOff(){
         $this->nav = false;
+    }
+
+    public function shadow($kond){
+        $this->shadowStat = $kond;
     }
 
     public function render()

@@ -2,29 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
 
-@layer base{
-    body{
-        @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+
+
+
+
+    .navclose{
+      clip-path: circle(50px at 90% -20%);
+      -webkit-clip-path: circle(50px at 90% -10%);
+      transition: all 1s ease-out;
+    }
+    .navopen {
+
+      clip-path: circle(1800px at 90% -10%);
+      -webkit-clip-path: circle(1800px at 90% -10%);
+      pointer-events: all;
     }
 
-    h1,h2,h3,h4,h5,h6{
-        @apply font-bold
+
+
+
+
+
+
+
+
+@layer base {
+    body {
+        @apply bg-[#ecf0f3] tracking-wide;
     }
 
-    h1{
-        @apply text-4xl sm:text-5xl md:text-6xl
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-bold;
     }
 
-    h2{
-        @apply text-3xl sm:text-4xl
+    h1 {
+        @apply text-4xl sm:text-5xl md:text-6xl;
     }
 
-    li{
-        @apply cursor-pointer
+    h2 {
+        @apply text-3xl sm:text-4xl;
     }
 
-    button{
-        @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#b8b6f5] text-white
+    li {
+        @apply cursor-pointer;
     }
 }
