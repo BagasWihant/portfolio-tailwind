@@ -89,6 +89,18 @@
                 </div>
             </div>
 
+            <div class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
+            bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
+                <div class="grid grid-cols-2 gap-4 justify-center items-center">
+                    <div class="m-auto">
+                        <img src="{{ asset('img/linux.png') }}" class="w-16">
+                    </div>
+                    <div class="flex justify-center items-center flex-col">
+                        <h3 class="">Linux</h3>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

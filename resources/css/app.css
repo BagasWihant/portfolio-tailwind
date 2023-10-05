@@ -11,17 +11,19 @@ html {
 
 
     .navclose{
-      clip-path: circle(50px at 90% -20%);
-      -webkit-clip-path: circle(50px at 90% -10%);
-      transition: all 1s ease-out;
+      clip-path: circle(50px at 99% -10%);
+      -webkit-clip-path: circle(50px at 99% -10%);
+      transition: all 0.5s ;
     }
     .navopen {
 
-      clip-path: circle(1800px at 90% -10%);
-      -webkit-clip-path: circle(1800px at 90% -10%);
+      clip-path: circle(1800px at 99% -10%);
+      -webkit-clip-path: circle(1800px at 99% -10%);
       pointer-events: all;
     }
-
+.bb{
+    border: 1px blue solid;
+}
 
 
 
