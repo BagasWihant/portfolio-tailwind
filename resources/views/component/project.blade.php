@@ -7,7 +7,7 @@
         <h3 class="py-4">Project yang telah saya buat</h3>
         <div class="grid md:grid-cols-2 gap-8 justify-center items-center">
 
-            <div class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
+            <div data-aos-duration="1500" data-aos="fade-up" class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
             hover:bg-gradient-to-r transition hover:-translate-y-1 ease-in-out duration-300 from-purple-300 to-blue-300 dark:from-purple-700 dark:to-blue-500">
                 <img src="{{ asset('img/projek/dri.png') }}" class="rounded-xl group-hover:opacity-10">
                 <div class="invisible group-hover:visible opacity-0 group-hover:opacity-100 duration-300 absolute top-[100%] group-hover:top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
@@ -22,7 +22,7 @@
                 </div>
             </div>
 
-            <div class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
+            <div data-aos-duration="1500" data-aos="fade-down" class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
             hover:bg-gradient-to-r transition hover:-translate-y-1 ease-in-out duration-300 from-purple-300 to-blue-300 dark:from-purple-700 dark:to-blue-500">
                 <img src="{{ asset('img/projek/e-commerce.png') }}" class="rounded-xl group-hover:opacity-10">
                 <div class="invisible group-hover:visible opacity-0 group-hover:opacity-100 duration-300 absolute top-[100%] group-hover:top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
@@ -38,7 +38,7 @@
             </div>
 
 
-            <div class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
+            <div data-aos-duration="1500" data-aos="zoom-in" class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
             hover:bg-gradient-to-r transition hover:-translate-y-1 ease-in-out duration-300 from-purple-300 to-blue-300 dark:from-purple-700 dark:to-blue-500">
                 <img src="{{ asset('img/projek/eret.jpeg') }}" class="rounded-xl group-hover:opacity-10 aspect-auto 2xl:h-80 lg:h-72">
                 <div class="invisible group-hover:visible opacity-0 group-hover:opacity-100 duration-300 absolute top-[100%] group-hover:top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
+            <div data-aos-duration="1500" data-aos="fade-up" class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
             hover:bg-gradient-to-r transition hover:-translate-y-1 ease-in-out duration-300 from-purple-300 to-blue-300 dark:from-purple-700 dark:to-blue-500">
                 <img src="{{ asset('img/projek/dynamic-landing-page.png') }}" class="rounded-xl group-hover:opacity-10">
                 <div class="invisible group-hover:visible opacity-0 group-hover:opacity-100 duration-300 absolute top-[100%] group-hover:top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
@@ -62,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
+            <div data-aos-duration="1500" data-aos="fade-down" class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
             hover:bg-gradient-to-r transition hover:-translate-y-1 ease-in-out duration-300 from-purple-300 to-blue-300 dark:from-purple-700 dark:to-blue-500">
                 <img src="{{ asset('img/projek/webpenggajian.png') }}" class="rounded-xl group-hover:opacity-10">
                 <div class="invisible group-hover:visible opacity-0 group-hover:opacity-100 duration-300 absolute top-[100%] group-hover:top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
+            <div data-aos-duration="1500" data-aos="zoom-in" class="relative flex items-center justify-center w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 group
             hover:bg-gradient-to-r transition hover:-translate-y-1 ease-in-out duration-300 from-purple-300 to-blue-300 dark:from-purple-700 dark:to-blue-500">
                 <img src="{{ asset('img/projek/webadmin.png') }}" class="rounded-xl group-hover:opacity-10">
                 <div class="invisible group-hover:visible opacity-0 group-hover:opacity-100 duration-300 absolute top-[100%] group-hover:top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">

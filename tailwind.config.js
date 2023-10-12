@@ -17,6 +17,12 @@ export default {
             '3xl': '1920px',
         },
         extend: {
+            backgroundImage: (theme) => ({
+                'image-dark':
+                  "url('/public/img/dark.jpeg')",
+                  'image-light':
+                  "url('/public/img/logo.png')",
+              }),
         },
     },
     plugins: [

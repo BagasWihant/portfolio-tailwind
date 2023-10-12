@@ -1,6 +1,6 @@
 <div id='about' class="w-full md:h-screen p-2 flex items-center py-16 dark:bg-gray-800 dark:text-white transition-colors duration-300">
     <div class="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div class="col-span-2">
+        <div class="col-span-2"  data-aos="fade-down">
             <p class="uppercase text-2xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-400">Tentang Saya</p>
             
             <p class="py-2 text-gray-600 dark:text-gray-300">
@@ -16,7 +16,8 @@
                 </a>
             </button>
         </div>
-        <div class="w-full h-auto m-auto shadow-xl shadow-gray-300 rounded-xl items-center justify-center flex p-5 hover:scale-105 ease-in-out duration-300">
+        <div  data-aos="zoom-in-right" data-aos-easing="linear"
+     data-aos-duration="1500" class="w-full h-auto m-auto shadow-xl shadow-gray-300 rounded-xl items-center justify-center flex p-5 hover:scale-105 ease-in-out duration-300">
             <img src="{{ asset('img/1.jpg') }}" class="rounded-xl">
         </div>
     </div>

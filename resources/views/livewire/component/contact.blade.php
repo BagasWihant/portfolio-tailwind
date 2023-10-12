@@ -6,7 +6,7 @@
         <h3 class="py-4">Lebih dekat dengan saya</h3>
         <div class="grid lg:grid-cols-5 gap-8 ">
 
-            <div
+            <div data-aos="zoom-in-down" wire:ignore.self
                 class="col-span-3 lg:col-span-2  w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4 bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
                 <div class="h-full">
                     <div class="">
@@ -19,28 +19,12 @@
                             <h3 class="py-2">Bagas Wihantoro</h3>
                             <p>Fullstack Web Developer</p>
                         </div>
-
-
-                            <div class="flex items-center justify-between py-5 m-auto max-w-[330px]">
-                                <a href="https://id.linkedin.com/in/bagas-wihantoro-2a489b219" class="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 hover:bg-gradient-to-r  hover:to-blue-600 hover:from-purple-500 ease-in-out duration-300">
-                                    <x-antdesign-linkedin class="w-7" />
-                                </a>
-                                <a href="https://facebook.com/bagas.wihant"  class="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105  hover:bg-gradient-to-r  hover:to-blue-600 hover:from-purple-500 ease-in-out duration-300">
-                                    <x-antdesign-facebook class="w-7" />
-                                </a>
-                                <a href="https://instagram.com/bagaswihant"  class="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105  hover:bg-gradient-to-r  hover:to-blue-600 hover:from-purple-500 ease-in-out duration-300">
-                                    <x-antdesign-instagram-o class="w-7" />
-                                </a>
-                                <a href="mailto:bagaswihant@gmail.com" class="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105  hover:bg-gradient-to-r  hover:to-blue-600 hover:from-purple-500 ease-in-out duration-300">
-                                    <x-antdesign-mail-o class="w-7" />
-                                </a>
-                            </div>
-
+                        @include('livewire.component.sosmed')
                     </div>
                 </div>
             </div>
 
-            <div
+            <div data-aos="zoom-in-down" wire:ignore.self
                 class="col-span-3 w-full h-auto shadow-xl shadow-gray-500 rounded-xl lg:p-4 bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
                 <div class="p-4">
 
@@ -84,7 +68,7 @@
                             <input type="text" class="rounded-lg dark:text-gray-950 border-2 p-3 flex border-gray-300"
                             wire:model='namaPengirim'>
                         </div>
-                        
+
                         <div class="flex flex-col py-2">
                             <label class="uppercase text-sm py-2">email</label>
                             @error('emailPengirim') <span class="text-red-500 font-bold">{{ $message }}</span> @enderror

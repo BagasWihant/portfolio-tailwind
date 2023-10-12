@@ -23,13 +23,14 @@ class Contact extends Component
     ];
 
     public function kirimpesan(){
+        $ar = [
+            'email' => $this->emailPengirim,
+            'pesan' => $this->pesanPengirim
+        ];
         $this->validate();
         $count = kirimpesan::where('email',$this->emailPengirim)->get()->count();
         if($count > 3) return $this->info = false;
-        kirimpesan::create([
-            'email' => $this->emailPengirim,
-            'pesan' => $this->pesanPengirim
-        ]);
+        kirimpesan::create($ar);
         Mail::to('bagaswihant@gmail.com')->send(new MailKirimPesan($this->emailPengirim, $this->pesanPengirim));
         $this->kirimsukses = true;
         $this->namaPengirim = $this->emailPengirim = $this->pesanPengirim = '';

@@ -3,7 +3,7 @@
         <p class="text-2xl py-5 uppercase bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-400 tracking-widest">Skiils</p>
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-            <div class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex justify-center items-center
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex justify-center items-center
             dark:from-purple-400 dark:to-blue-300 bg-gradient-to-r from-purple-200 to-blue-100">
                 <div class="grid grid-cols-2 gap-4 justify-center items-center">
                     <div class="m-auto">
@@ -16,7 +16,7 @@
             </div>
 
 
-            <div class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300   flex justify-center items-center
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300   flex justify-center items-center
             bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
                 <div class="grid grid-cols-2 gap-4 justify-center items-center">
                     <div class="m-auto">
@@ -29,7 +29,7 @@
             </div>
 
 
-            <div class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
             bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
                 <div class="grid grid-cols-2 gap-4 justify-center items-center">
                     <div class="m-auto">
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
             bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
                 <div class="grid grid-cols-2 gap-4 justify-center items-center">
                     <div class="m-auto">
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
             bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
                 <div class="grid grid-cols-2 gap-4 justify-center items-center">
                     <div class="m-auto">
@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            <div class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
             bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
                 <div class="grid grid-cols-2 gap-4 justify-center items-center">
                     <div class="m-auto">
@@ -77,7 +77,7 @@
                 </div>
             </div>
 
-            <div class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
             bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
                 <div class="grid grid-cols-2 gap-4 justify-center items-center">
                     <div class="m-auto">
@@ -89,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" class="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  flex justify-center items-center
             bg-gradient-to-r from-purple-200 to-blue-100 dark:from-purple-400 dark:to-blue-300">
                 <div class="grid grid-cols-2 gap-4 justify-center items-center">
                     <div class="m-auto">

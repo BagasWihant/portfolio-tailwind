@@ -24,6 +24,12 @@ html {
 .bb{
     border: 1px blue solid;
 }
+.cc{
+    border: 1px chartreuse solid;
+}
+.dd{
+    border: 1px darkred solid;
+}
 
 
 
